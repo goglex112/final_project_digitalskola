@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+dags/scripts/__pycache__/
+Dockerfile
+Main.py
+.gitignore
+DDL_MySQL.py
