@@ -1140,3 +1140,31 @@ NameError: name 'extract_data' is not defined
 [2024-02-02T20:15:49.033+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:15:49.032+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2024-02-02T20:15:49.065+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:15:49.065+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_covid to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
 [2024-02-02T20:15:49.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/Test.py took 0.514 seconds
+[2024-02-02T20:16:19.274+0000] {processor.py:161} INFO - Started process (PID=385229) to work on /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:16:19.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/Test.py for tasks to queue
+[2024-02-02T20:16:19.277+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:16:19.277+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:16:19.686+0000] {processor.py:840} INFO - DAG(s) 'etl_covid' retrieved from /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:16:19.714+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:16:19.714+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-02T20:16:19.742+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:16:19.742+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_covid to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-02T20:16:19.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/Test.py took 0.496 seconds
+[2024-02-02T20:16:49.877+0000] {processor.py:161} INFO - Started process (PID=385482) to work on /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:16:49.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/Test.py for tasks to queue
+[2024-02-02T20:16:49.881+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:16:49.881+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:16:50.270+0000] {processor.py:840} INFO - DAG(s) 'etl_covid' retrieved from /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:16:50.299+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:16:50.299+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-02T20:16:50.331+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:16:50.330+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_covid to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-02T20:16:50.360+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/Test.py took 0.488 seconds
+[2024-02-02T20:17:20.433+0000] {processor.py:161} INFO - Started process (PID=385748) to work on /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:17:20.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/Test.py for tasks to queue
+[2024-02-02T20:17:20.437+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:17:20.437+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:17:20.980+0000] {processor.py:840} INFO - DAG(s) 'etl_covid' retrieved from /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:17:21.015+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:17:21.014+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-02T20:17:21.047+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:17:21.047+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_covid to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-02T20:17:21.080+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/Test.py took 0.651 seconds
+[2024-02-02T20:17:51.254+0000] {processor.py:161} INFO - Started process (PID=386018) to work on /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:17:51.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/Test.py for tasks to queue
+[2024-02-02T20:17:51.257+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:17:51.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:17:51.672+0000] {processor.py:840} INFO - DAG(s) 'etl_covid' retrieved from /opt/airflow/dags/scripts/Test.py
+[2024-02-02T20:17:51.697+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:17:51.697+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-02T20:17:51.721+0000] {logging_mixin.py:188} INFO - [2024-02-02T20:17:51.721+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_covid to 2024-02-02 00:00:00+00:00, run_after=2024-02-03 00:00:00+00:00
+[2024-02-02T20:17:51.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/Test.py took 0.501 seconds
