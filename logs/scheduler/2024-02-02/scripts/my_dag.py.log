@@ -1,0 +1,17 @@
+[2024-02-02T15:47:36.486+0000] {processor.py:161} INFO - Started process (PID=251697) to work on /opt/airflow/dags/scripts/my_dag.py
+[2024-02-02T15:47:36.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/my_dag.py for tasks to queue
+[2024-02-02T15:47:36.488+0000] {logging_mixin.py:188} INFO - [2024-02-02T15:47:36.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/my_dag.py
+[2024-02-02T15:47:36.492+0000] {logging_mixin.py:188} INFO - [2024-02-02T15:47:36.489+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/scripts/my_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/scripts/my_dag.py", line 6
+    schedule_interval="@daily", catchup = False) as dag
+                                                      ^
+SyntaxError: invalid syntax
+[2024-02-02T15:47:36.492+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/my_dag.py
+[2024-02-02T15:47:36.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/my_dag.py took 0.041 seconds
